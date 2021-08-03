@@ -11,7 +11,7 @@ public class Assignment03HygorCosta {
 		// Rules for Randometer and maximum and minimum parameters for it.
 		for (int count = 0; count < 1000; count++) {
 			roll = (int) (Math.random() * 20) + 1;
-			diceRolls[roll] = diceRolls[roll - 1] + 1;
+			diceRolls[roll-1] = diceRolls[roll - 1] + 1;
 		}
 
 		// Report creation configuration.
@@ -21,7 +21,7 @@ public class Assignment03HygorCosta {
 		}
 		// output
 		System.out.println("Total rolls were: " + totalRolls);
-		System.out.println("Program by Hygor Costa");
+		System.out.println("Program by Hygor Costaa");
 
 	}
 
