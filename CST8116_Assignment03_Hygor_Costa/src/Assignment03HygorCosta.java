@@ -21,7 +21,8 @@ public class Assignment03HygorCosta {
 		}
 		// output
 		System.out.println("Total rolls were: " + totalRolls);
-		System.out.println("Program by Hygor Costaa");
+		System.out.println("Program by Hygor Costa");
+		
 
 	}
 
